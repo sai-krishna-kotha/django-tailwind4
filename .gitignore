@@ -1,0 +1,37 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+virtualenv/
+
+# Package Distribution / Build artifacts
+# These are generated when you run `python -m build`
+dist/
+build/
+*.egg-info/
+
+# Node.js dependencies
+# This directory contains thousands of files and should never be committed.
+node_modules/
+npm-debug.log*
+
+# Django testing artifacts
+# These files will be generated when you test the package in a sample project.
+db.sqlite3
+staticfiles/
+media/
+
+# IDE and editor configuration
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Secrets and environment variables
+.env
