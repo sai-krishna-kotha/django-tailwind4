@@ -1,4 +1,4 @@
 include LICENSE
 include README.md
-recursive-include tailwind4/templates *
-recursive-include tailwind4/static *
+recursive-include django_tailwind_v4/templates *
+recursive-include django_tailwind_v4/static *

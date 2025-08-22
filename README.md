@@ -68,9 +68,9 @@ python manage.py tailwind_build --watch
 
 # For a single production build (minified)
 python manage.py tailwind_build --minify
+```
 
 ### 3. Include the CSS in Your Template
-```
 Finally, link the compiled stylesheet in your base HTML template.
 
 ```html
