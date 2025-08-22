@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-tailwind-v4"
-version = "0.1.0"
+version = "0.1.2"
 authors = [
   { name="kothasaikrishna", email="kotha.saikrishna07@gmail.com" },
 ]
@@ -36,4 +36,4 @@ Issues = "https://github.com/sai-krishna-kotha/django-tailwind4/issues"
 # ADD THIS NEW SECTION AT THE END
 [tool.setuptools]
 packages = ["django-tailwind-v4"]
-include-package-data = true
+include-package-data = true 
