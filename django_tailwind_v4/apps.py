@@ -6,4 +6,4 @@ class DjangoTailwind4Config(AppConfig):
     This is what you'll add to INSTALLED_APPS in your settings.
     """
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'django-tailwind-v4'
+    name = 'django_tailwind_v4'

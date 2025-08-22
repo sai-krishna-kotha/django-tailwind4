@@ -29,7 +29,7 @@ This package automates the setup process by providing management commands to ini
 
 1.  **Install the package from PyPI:**
     ```bash
-    pip install django-tailwind4
+    pip install django-tailwind-v4
     ```
 
 2.  **Add it to your `INSTALLED_APPS` in `settings.py`:**
@@ -37,7 +37,7 @@ This package automates the setup process by providing management commands to ini
     # settings.py
     INSTALLED_APPS = [
         # ... other apps
-        'django_tailwind-v4',
+        'django_tailwind_v4',
     ]
     ```
 
