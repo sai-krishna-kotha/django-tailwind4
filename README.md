@@ -1,7 +1,6 @@
 # Django Tailwind CSS v4
 
-[![PyPI version](https://img.shields.io/pypi/v/django-tailwind4.svg)](https://pypi.org/project/django-tailwind4/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/kothasaikrishna/django-tailwind4/main.yml?branch=main)](https://github.com/kothasaikrishna/django-tailwind4/actions)
+[![PyPI version](https://img.shields.io/pypi/v/django-tailwind-v4.svg)](https://pypi.org/project/django-tailwind-v4/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A simple, beginner-friendly Django app to integrate Tailwind CSS v4 into your project.
@@ -38,7 +37,7 @@ This package automates the setup process by providing management commands to ini
     # settings.py
     INSTALLED_APPS = [
         # ... other apps
-        'django_tailwind4',
+        'django_tailwind-v4',
     ]
     ```
 
