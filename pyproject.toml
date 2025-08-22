@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "django-tailwind4"
+name = "django-tailwindcssv4"
 version = "0.1.0"
 authors = [
   { name="kothasaikrishna", email="kotha.saikrishna07@gmail.com" },
@@ -23,11 +23,6 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Build Tools",
 ]
 dependencies = [
@@ -35,5 +30,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/saikrishna-kotha/django-tailwind4"
+Homepage = "https://github.com/sai-krishna-kotha/django-tailwind4"
 Issues = "https://github.com/sai-krishna-kotha/django-tailwind4/issues"
+
+# ADD THIS NEW SECTION AT THE END
+[tool.setuptools]
+packages = ["tailwind4"]
+include-package-data = true
